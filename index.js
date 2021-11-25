@@ -14,11 +14,13 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-app.post('/', (req, res) => {
+app.post('/', async (req, res) => {
     // console.log(req.body);
     const { city } = req.body
     // console.log(city);
-    weatherRequest(city)
+   const {weather, error} = await weatherRequest(city)
+   console.log('Weathe: ', weather);
+   console.log('Error: ', error);
     res.render('index')
 })
 
