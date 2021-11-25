@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Aleksandr-Glebik/weather-forecast-on-nodejs#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
   },
   "devDependencies": {
