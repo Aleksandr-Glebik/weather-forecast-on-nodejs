@@ -1,0 +1,32 @@
+{
+  "name": "weather-nodejs",
+  "version": "1.0.0",
+  "description": "this is node js app weather forecast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksandr-Glebik/weather-forecast-on-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "javascript",
+    "weather"
+  ],
+  "author": "Aleksandr Glebik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksandr-Glebik/weather-forecast-on-nodejs/issues"
+  },
+  "homepage": "https://github.com/Aleksandr-Glebik/weather-forecast-on-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
