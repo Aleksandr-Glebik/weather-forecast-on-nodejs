@@ -1,5 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const weatherRequest = require('./requests/weather.request')
 const app = express()
 //3add0df8cd60074880ae83777aafe663
 
@@ -16,7 +17,8 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     // console.log(req.body);
     const { city } = req.body
-    console.log(city);
+    // console.log(city);
+    weatherRequest(city)
     res.render('index')
 })
 
